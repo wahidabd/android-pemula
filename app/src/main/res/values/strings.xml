@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android Pemula</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+    <string name="abd_wahid">Abd Wahid</string>
+    <string name="wahedputradmj_gmail_com">wahedputradmj@gmail.com</string>
+    <string name="deskripsi">Deskripsi:</string>
+</resources>

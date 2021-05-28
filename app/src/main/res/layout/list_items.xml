@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="10dp"
+    android:layout_margin="12dp"
+    app:cardCornerRadius="12dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/card_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="12dp"
+            android:layout_centerInParent="true"
+            android:src="@color/cardview_dark_background"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@id/img"
+            android:fontFamily="@font/poppins"
+            tools:text="Belajar Android Untuk Pemula"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="12dp"
+            android:maxLines="1"/>
+
+        <TextView
+            android:id="@+id/tv_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@id/img"
+            android:fontFamily="@font/poppins"
+            tools:text="Level: Pemula"
+            android:textSize="14sp"
+            android:layout_below="@id/tv_title"/>
+
+        <TextView
+            android:id="@+id/tv_estimasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@id/img"
+            android:fontFamily="@font/poppins"
+            tools:text="Level: Pemula"
+            android:textSize="14sp"
+            android:layout_below="@id/tv_level"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
